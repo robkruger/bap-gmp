@@ -18,7 +18,6 @@ with open("F0012CH2.CSV", 'r') as file2:
         time2.append(float(line[0]))
         voltage2.append(float(line[1]))
 
-percentage = 25
 plt.style.use(['science','ieee'])
 plt.plot(time, voltage, label = f'4.8V')
 plt.plot(time2, voltage2, label=f'0.8V')
